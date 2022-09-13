@@ -1,0 +1,35 @@
+/*Smartphone Porttrait */
+
+body {
+    background-color: #00ffff;
+}
+
+/* Smarthphone Landscape*/
+@media (min-width: 576px) {
+    body{
+        background-color: #ffff00;
+    }
+}
+
+/* Tablet Landscape*/
+@media (min-width: 768px) {
+    body {
+        background-color: #ffd900;
+        color: #ffffff;
+    }
+}
+
+/* Tablet Landscape*/
+@media (min-width: 992px) {
+    body {
+        background-color: #ff0000;
+    }
+}
+
+/* Notebooks/SmarTv*/
+@media (min-width: 1200px) {
+    body {
+        background-color: #00ff00;
+        color: #000000
+    }
+}
